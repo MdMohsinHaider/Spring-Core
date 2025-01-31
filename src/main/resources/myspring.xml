@@ -7,5 +7,16 @@
     <!-- bean definitions here -->
     <bean id="mySamsung" class="com.mohsin.Samsung" />
     <bean id="myIphone" class="com.mohsin.Iphone" />
+    <bean id="myNokia" class="com.mohsin.Nokia">
+        <property name="id" value="123"/>
+        <property name="name" value="Md Mohsin Haider"/>
+        <property name="email" value="mdmohsinhaider6@gmail.com"/>
+    </bean>
+
+    <bean id="myNokia2" class="com.mohsin.Nokia">
+        <constructor-arg name="id" value="100"/>
+        <constructor-arg name="name" value="Devil"/>
+        <constructor-arg name="email" value="devil@mohsin.com"/>
+    </bean>
 
 </beans>

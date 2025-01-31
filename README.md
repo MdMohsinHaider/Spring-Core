@@ -167,8 +167,8 @@ public class Iphone implements Mobile {
 ## Running the Application
 Use the following command to execute the program:
 ```sh
-mvn exec:java -Dexec.mainClass="com.mohsin.App"   # For Maven
-java -cp target/classes:target/dependency/* com.mohsin.App  # If manually compiled
+mvn exec:java -Dexec.mainClass="com.mohsin.MobileApp"   # For Maven
+java -cp target/classes:target/dependency/* com.mohsin.MobileApp  # If manually compiled
 ```
 
 ## License
